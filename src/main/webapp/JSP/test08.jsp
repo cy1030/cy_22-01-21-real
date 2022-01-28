@@ -59,7 +59,7 @@
     };
     list.add(map);
 	
-	
+	a
 	%>
 	
 	<a href="<%= %>"></a>
