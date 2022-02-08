@@ -16,11 +16,12 @@
 		
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy년 MM월 dd일");
 		String dateString = formatter.format(todayCalender.getTime());
+		todayCalender.add(Calendar.DATE, 100 - 1);
 		
 		int anni = 100;
 		
 		for(int i = 1; i <= 10; i++){
-			todayCalender.add(Calendar.DATE, i*anni - 1);
+			todayCalender.add(Calendar.DATE, 100);
 			out.println("<br>" + formatter.format(todayCalender.getTime())); 
 		}
 		
